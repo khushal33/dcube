@@ -1,0 +1,11 @@
+---
+application:
+  name: "dcube"
+  project: "dcube"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-dcube"
+  routes:
+  - application_name: "dcube"
+    paths:
+    - "/*"
